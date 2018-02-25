@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> 2D Polyline </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../src/css/polyline.css" />
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            X: <input type="text" id="x"><br>
+            Y: <input type="text" id="y"><br>
+            <input type="button" value="Add Point" id="add_point"><br>
+            <input type="button" value="Draw" onclick="process_polyline()"><br>
+
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Canvas for drawing -->
+    <div id='canvas_div'>
+        <canvas id="canvas" width="800" height="800" style="border:2px;">
+            Your browser does not support the HTML5 canvas tag!
+        </canvas>
+            
+                        
+    </div>
+    <script src="../src/js/polyline.js"></script>    
+
+    <footer>
+            <a href="../index.html"> Home</a>
+    </footer>    
+</body>
+</html>

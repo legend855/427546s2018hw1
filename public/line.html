@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> 2D Line </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="line.css" />
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            X0: <input type="text" id="x0"><br>
+            Y0: <input type="text" id="y0"><br>
+            X1: <input type="text" id="x1"><br>
+            Y1: <input type="text" id="y1"><br>
+            <input type="button" value="Draw" onclick="process_line()"><br>
+        </fieldset>
+    </form>
+    
+            
+    <!-- Canvas for drawing -->
+    <div id='canvas_div'>
+        <canvas id="canvas" width="800" height="800" style="border:2px">
+            Your browser does not support the HTML5 canvas tag!
+        </canvas>
+        
+                    
+    </div>
+    <script src="../src/js/lines.js"></script>
+
+    <footer>
+        <a href="../index.html"> Home</a>
+    </footer>
+</body>
+</html>
